@@ -1,0 +1,501 @@
+@import url(http://dl.dropboxusercontent.com/u/78192465/MyAnimeList/CSS/TopMenu/TopMenu.css);
+@import "http://fonts.googleapis.com/css?family=Raleway";
+@import url(https://googledrive.com/host/0BxjwQr0BBXs-MVlzYkRVc0k0Q0k);
+@import url(https://dl.dropboxusercontent.com/s/5gg064n5hzbeea7/Falling.css);
+
+body {
+background-attachment:fixed !important;
+background-image:url(http://i.imgur.com/o61aLKw.png);
+background-position:0 0;
+background-size:cover;
+}
+#list_surround {
+left:4% !important;
+position:absolute !important;
+}
+#inlineContent {
+display:inline-block !important;
+height:1200px !important;
+left:0 !important;
+margin:auto !important;
+position:fixed !important;
+right:0 !important;
+top:0 !important;
+width:600px !important;
+z-index:-1 !important;
+}
+#list_surround {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/yR4qrst.png);
+background-position:26px -134px;
+background-repeat:no-repeat no-repeat;
+font-size:12px;
+line-height:1;
+margin:0 auto;
+padding-bottom:10px;
+padding-top:100px;
+width:670px;
+}
+body {
+color:#FFFFFF;
+font-family:Raleway;
+}
+a {
+-webkit-transition:all 0.25s ease-in-out 0s;
+color:#FFFFFF;
+text-decoration:none;
+text-shadow:none;
+transition:all 0.25s ease-in-out 0s;
+}
+a:hover {
+}
+.table_header {
+background-color:rgba(0, 0, 0, 0.8);
+height:20px;
+}
+.table_header:first-of-type {
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-top-left-radius:10px;
+border-top-right-radius:0;
+}
+.table_header:nth-of-type(2) {
+text-align:left;
+}
+.table_header:last-of-type {
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-top-left-radius:0;
+border-top-right-radius:10px;
+}
+.td1 {
+-webkit-transition:all 0.25s ease-in-out 0s;
+background-color:rgba(0, 0, 0, 0.498039);
+height:20px;
+transition:all 0.25s ease-in-out 0s;
+}
+.td2 {
+-webkit-transition:all 0.25s ease-in-out 0s;
+background-color:rgba(0, 0, 0, 0.498039);
+height:20px;
+transition:all 0.25s ease-in-out 0s;
+}
+tr:hover [class^="td"] {
+background-color:rgba(0, 150, 250, 0.8);
+}
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+text-align:left;
+}
+.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+border:0;
+padding:4px;
+text-align:center;
+vertical-align:middle;
+}
+.table_header, .td1, .td2, .category_totals {
+line-height:20px;
+}
+.borderRBL {
+line-height:normal !important;
+}
+[cellspacing="0"] {
+line-height:20px;
+}
+.category_totals {
+background-color:rgba(0, 0, 0, 0.8);
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+border-top-left-radius:0;
+border-top-right-radius:0;
+color:#FFFFFF;
+line-height:15px;
+text-align:center;
+}
+[class^="header_"] * {
+font-size:30px;
+height:60px;
+line-height:20px;
+padding-bottom:10px;
+padding-left:6px;
+text-align:center;
+text-shadow:black 2px 1px;
+vertical-align:bottom;
+}
+.header_title {
+border-bottom-left-radius:4px;
+border-bottom-right-radius:4px;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+color:#FFFFFF;
+display:inline-block;
+font-style:italic;
+height:auto;
+padding:0 8px 0 0;
+text-shadow:rgba(0, 0, 0, 0.14902) 0 1px 1px;
+}
+#grand_totals {
+background-color:rgba(0, 0, 0, 0);
+border:0 none;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#FFFFFF;
+line-height:20px;
+min-height:20px;
+padding:8px;
+text-align:center;
+vertical-align:middle;
+}
+#copyright {
+background-color:rgba(0, 0, 0, 0.8);
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#EEEEEE;
+line-height:17px;
+margin-top:10px;
+padding:8px;
+text-align:center;
+}
+.animetitle + small {
+color:#00C9FF !important;
+text-shadow:black 1px 1px;
+}
+#copyright::after {
+}
+#list_surround .status_selected, #list_surround .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/ogJ2gKk.png);
+background-position:0 100%;
+background-repeat:no-repeat no-repeat;
+border:2px solid white !important;
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-top-left-radius:15px;
+border-top-right-radius:0;
+display:block;
+height:90px;
+padding:0;
+position:fixed;
+right:-178px;
+top:103px;
+width:320px;
+}
+#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected +
+
+.status_selected, #list_surround .status_not_selected + .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/yDfnIoP.png);
+background-repeat:no-repeat no-repeat;
+border-bottom-right-radius:0;
+border-top-left-radius:0;
+border-top-right-radius:0;
+top:195px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround
+
+.status_not_selected + .status_selected + .status_not_selected, #list_surround
+
+.status_not_selected + .status_not_selected + .status_selected, #list_surround
+
+.status_not_selected + .status_not_selected + .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/BHUNTom.png);
+top:287px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected, #list_surround .status_not_selected + .status_selected +
+
+.status_not_selected + .status_not_selected, #list_surround .status_not_selected +
+
+.status_not_selected + .status_selected + .status_not_selected, #list_surround
+
+.status_not_selected + .status_not_selected + .status_not_selected + .status_selected,
+
+#list_surround .status_not_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/ucJwRo3.png);
+background-repeat:repeat repeat;
+top:379px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected + .status_not_selected, #list_surround .status_not_selected +
+
+.status_selected + .status_not_selected + .status_not_selected + .status_not_selected,
+
+#list_surround .status_not_selected + .status_not_selected + .status_selected +
+
+.status_not_selected + .status_not_selected, #list_surround .status_not_selected +
+
+.status_not_selected + .status_not_selected + .status_selected + .status_not_selected,
+
+#list_surround .status_not_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected + .status_selected, #list_surround .status_not_selected +
+
+.status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/5abW8hR.png);
+top:471px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected + .status_not_selected + .status_not_selected, #list_surround
+
+.status_not_selected + .status_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected + .status_not_selected, #list_surround .status_not_selected +
+
+.status_not_selected + .status_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected, #list_surround .status_not_selected + .status_not_selected +
+
+.status_not_selected + .status_selected + .status_not_selected + .status_not_selected,
+
+#list_surround .status_not_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected + .status_selected + .status_not_selected, #list_surround
+
+.status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected + .status_selected, #list_surround .status_not_selected +
+
+.status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected +
+
+.status_not_selected {
+background-attachment:scroll;
+background-color:transparent;
+background-image:url(http://i.imgur.com/wkezpZa.png);
+background-position:0 0;
+background-repeat:no-repeat no-repeat;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+top:563px;
+width:320px;
+}
+.status_not_selected {
+-webkit-transition:all 0.4s ease 0s;
+opacity:0.7;
+right:-178px !important;
+transition:all 0.4s ease 0s;
+}
+.status_not_selected:hover {
+-webkit-transition:all 0.25s ease 0s;
+color:transparent;
+opacity:1;
+right:-20px !important;
+transition:all 0.25s ease 0s;
+}
+.status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a
+
+{
+color:transparent;
+display:block;
+height:100px;
+opacity:0;
+width:320px;
+}
+.status_selected {
+display:block;
+}
+.status_selected:hover {
+-webkit-transition:all 0.25s ease-in-out;
+color:transparent;
+opacity:1;
+right:-20px !important;
+transition:all 0.25s ease-in-out;
+}
+.status_selected {
+-webkit-transition:all 0.25s ease-in-out;
+transition:all 0.25s ease-in-out;
+}
+
+COVER PREVIEW
+.animetitle:before {
+content: "";
+height: 0px;
+width: 0px;
+margin-left:0;
+margin-top:10px;
+display:inline-block !important;
+position: absolute;
+background-size: contain;
+transition: all 0.4s ease-in-out;
+}
+
+.animetitle:hover:before {
+content: "";
+margin-left: 640px;
+margin-top: 0px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+box-shadow:rgba(63, 52, 60, 0.55) 0 0 8px 8px;
+padding-right:150px;
+padding-top:220px !important;
+background-color:transparent;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+position:absolute;
+z-index:1;
+}
+
+MUSIC MOD
+#inlineContent {
+background-color: #333333;
+background-image: url("http://i.imgur.com/R75jXL7.png");
+background-position: center center;
+background-repeat: no-repeat;
+border-radius: 5px;
+bottom: 5px;
+color: white;
+display: inline !important;
+font-weight: lighter !important;
+height: 5px !important;
+left: 5px;
+opacity: 1 !important;
+padding-bottom: 20px;
+pointer-events: none;
+position: fixed;
+width: 25px !important;
+}
+a[onclick^="getExpand(7113"] {
+border-bottom: medium none;
+bottom: 5px;
+color: #5c8ae6 !important;
+font-size: 0;
+left: 5px;
+position: fixed;
+transition: color 0.6s ease 0s;
+}
+a[onclick^="getExpand(7113"]::before {
+content: "-----";
+font-size: 12px;
+padding: 1px 2px 3px;
+z-index: 100 !important;
+}
+#more7113 .borderRBL {
+border-radius: 5px !important;
+bottom: 5px;
+color: rgba(0, 0, 0, 0);
+font-size: 0;
+height: 5px;
+left: 37px;
+padding-bottom: 16px;
+position: fixed;
+width: 60px;
+}
+#more7113:hover .borderRBL::before {
+background: white none repeat scroll 0 0 !important;
+}
+
+#more7113 iframe.movie.youtube {
+bottom: 13px;
+height: 10px;
+left: 50px;
+opacity: 0;
+position: fixed;
+width: 50px;
+}
+
+#more7113 .borderRBL::before {
+background: #5c8ae6 none repeat scroll 0 0;
+border: medium none;
+border-radius: 50%;
+bottom: 13px;
+color: white;
+content: "Play";
+font-size: 12px;
+height: 10px;
+left: 49px;
+line-height: 10px;
+pointer-events: none;
+position: fixed;
+text-indent: 20px;
+transition: color 0.6s ease 0s, background 0.6s ease 0s;
+width: 10px;
+z-index: 2;
+}
+
+/*
+Tags Row Width
+*/
+
+.td1:nth-of-type(6), .td2:nth-of-type(6){
+width: 170px;
+}
+
+/*
+Tags Header width
+*/
+.table_header:nth-of-type(6) {
+width: 170px;
+}
+
+/* FALLING SNOW */
+#inlineContent:before {
+position: fixed;
+left: 0;
+top: 0;
+content: '';
+width: 100%;
+height: 100%;
+background-image: url(http://i.imgur.com/nhrBdMu.png),
+url(http://i.imgur.com/oHXjwMU.png),
+url(http://i.imgur.com/EgS0mDd.png);
+animation: Falling 20s linear infinite;
+-moz-animation: Falling 20s linear infinite;
+-webkit-animation: Falling 20s linear infinite;
+z-index: 102;
+}
+
+CREDIT
+Forum post found here: http://myanimelist.net/forum/?topicid=393503&show=250#msg45123770
+#copyright {
+background: none repeat scroll 0% 0% #5c8ae6;
+color: #ffffff;
+line-height: 2.5em;
+margin-top: 0px ! important;
+}
+
+#copyright:after {
+background-color: #333333;
+background-image: url("http://db.tt/uBvPkq8g");
+background-position: center center;
+background-repeat: no-repeat;
+bottom: 5px;
+color: rgba(0, 0, 0, 0) ! important;
+content: "Customized by FlameSpeedster";
+display: block;
+font-size: 0px ! important;
+height: 5px;
+padding-bottom: 20px;
+position: fixed;
+right: 5px;
+transition: all 0.15s ease-out 0s;
+width: 25px;
+}
+
+#copyright:hover:after {
+background-image: none;
+color: #e5e5e5 ! important;
+font-size: 9px ! important;
+height: auto ! important;
+padding: 5px;
+text-align: justify ! important;
+transition: all 0.15s ease-in 0s;
+width: 150px;
+}
