@@ -3,7 +3,7 @@
 /* Last updated: 2023-Mar-19 */
 
 @\import "https://fonts.googleapis.com/css?family=Raleway";
-@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/animetitleafter";
 
 body {
 background-attachment:fixed !important;
@@ -393,14 +393,14 @@ z-index: 102;
 }
 
 /* COVER AREA
-The surrounding area containing each cover pic which appears when you point to a row (requires #more CSS).
+The surrounding area containing each cover pic which appears when you point to a row.
 Left and top adjust the position it appears on screen.
 Control the height and width of the pic with height and width.
 Remove only the border-radius: 25px 25px 25px 25px; lines to take the rounded corners away.
 Increase height and width to make the pics bigger.
 Delete border-style: solid; to remove the border.
 */
-.hide {
+.animetitle::after {
 background-size: cover;
 right: 752px;
 top: 205px;
@@ -415,11 +415,11 @@ border-bottom: 1px solid white;
 border-radius: 10px 10px 10px 10px;
 background-color: rgba(0, 0, 0, 0.75);
 background-position: center 50% !important;
-background-repeat: no-repeat !Important;
-display: block !important;
 position: fixed;
-visibility: hidden;
-opacity: 0;
+}
+
+table:hover .animetitle::after {
+	content: "";
 }
 
 /*
@@ -450,17 +450,17 @@ color: white !important;
 z-index: 1;
 }
 
+tr:hover td[class^='td']:nth-of-type(6){
+visibility: visible;
+opacity: 1;
+}
+
 /* TAG TEXT COLOR*/
 tr:hover td[class^='td']:nth-of-type(6) a { 
 color: white !important; 
 }
 
 
-/* OTHER SETTINGS */
-:hover + .hide , tr:hover td[class^='td']:nth-of-type(6){
-visibility: visible;
-opacity: 1;
-}
 
 /* REMOVE TABLE HEADER
 Deletes the table header Tags which isn't necessary.
