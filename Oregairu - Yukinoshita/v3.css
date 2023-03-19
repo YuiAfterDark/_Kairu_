@@ -1,6 +1,9 @@
-@import url(https://dl.dropboxusercontent.com/s/5gg064n5hzbeea7/Falling.css);
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url(https://storage.live.com/items/4A07C1EEED420167%21170);
+/* Oregairu - Yukinoshita v3 by _Kairu_ */
+/* Edited by Valerio Lyndon */
+/* Last updated: 2023-Mar-19 */
+
+@\import "https://fonts.googleapis.com/css?family=Raleway";
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
 
 body {
 background-attachment:fixed !important;
@@ -379,6 +382,16 @@ animation: Falling 20s linear infinite;
 z-index: 102;
 }
 
+@keyframes Falling {
+	0% { background-position: 0 0, 0 0, 0 0; }
+	100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+}
+ 
+@-webkit-keyframes Falling {
+	0% { background-position: 0 0, 0 0, 0 0; }
+	100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+}
+
 /* COVER AREA
 The surrounding area containing each cover pic which appears when you point to a row (requires #more CSS).
 Left and top adjust the position it appears on screen.
@@ -626,4 +639,10 @@ display: none !important;
 }
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
 border-right: 0 none !important;
+}
+
+/* 2023 */
+
+#recaptcha-terms {
+	display: none;
 }

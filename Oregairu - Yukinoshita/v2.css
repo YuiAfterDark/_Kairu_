@@ -1,7 +1,24 @@
-@import url(http://dl.dropboxusercontent.com/u/78192465/MyAnimeList/CSS/TopMenu/TopMenu.css);
-@import "http://fonts.googleapis.com/css?family=Raleway";
-@import url(https://googledrive.com/host/0BxjwQr0BBXs-MVlzYkRVc0k0Q0k);
-@import url(https://dl.dropboxusercontent.com/s/5gg064n5hzbeea7/Falling.css);
+/* Oregairu - Yukinoshita v2 by _Kairu_ */
+/* Edited by Valerio Lyndon */
+/* Last updated: 2023-Mar-19 */
+
+@\import "http://fonts.googleapis.com/css?family=Raleway";
+/* broken: http://dl.dropboxusercontent.com/u/78192465/MyAnimeList/CSS/TopMenu/TopMenu.css */
+/* broken: https://googledrive.com/host/0BxjwQr0BBXs-MVlzYkRVc0k0Q0k */
+
+/* https://dl.dropboxusercontent.com/s/5gg064n5hzbeea7/Falling.css */
+
+@keyframes Falling {
+	0% { background-position: 0 0, 0 0, 0 0; }
+	100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+}
+ 
+@-webkit-keyframes Falling {
+	0% { background-position: 0 0, 0 0, 0 0; }
+	100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+}
+
+/* theme */
 
 body {
 background-attachment:fixed !important;
@@ -462,8 +479,8 @@ animation: Falling 20s linear infinite;
 z-index: 102;
 }
 
-CREDIT
-Forum post found here: http://myanimelist.net/forum/?topicid=393503&show=250#msg45123770
+/*CREDIT
+Forum post found here: http://myanimelist.net/forum/?topicid=393503&show=250#msg45123770 */
 #copyright {
 background: none repeat scroll 0% 0% #5c8ae6;
 color: #ffffff;
@@ -473,7 +490,8 @@ margin-top: 0px ! important;
 
 #copyright:after {
 background-color: #333333;
-background-image: url("http://db.tt/uBvPkq8g");
+/* broken link */
+/* background-image: url("http://db.tt/uBvPkq8g"); */
 background-position: center center;
 background-repeat: no-repeat;
 bottom: 5px;
