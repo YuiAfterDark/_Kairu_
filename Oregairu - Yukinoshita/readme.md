@@ -2,6 +2,8 @@
 
 ### Info
 
+An edit of [TheHolyPotato's SAO layout](https://myanimelist.net/forum/?topicid=1360433).
+
 Released: 2017-01-31
 
 For animelists only.

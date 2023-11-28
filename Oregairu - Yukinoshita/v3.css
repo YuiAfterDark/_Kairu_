@@ -1,6 +1,6 @@
 /* Oregairu - Yukinoshita v3 by _Kairu_ */
 /* Edited by Valerio Lyndon */
-/* Last updated: 2023-Mar-19 */
+/* Last updated: 2023-Nov-28 */
 
 @\import "https://fonts.googleapis.com/css?family=Raleway";
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/animetitleafter";
@@ -373,9 +373,9 @@ top: 0;
 content: '';
 width: 100%;
 height: 100%;
-background-image: url(http://i.imgur.com/nhrBdMu.png),
-url(http://i.imgur.com/oHXjwMU.png), 
-url(http://i.imgur.com/EgS0mDd.png);
+background-image: url(https://i.imgur.com/Xaiv3W7.png) /* shared/snow1.png */,
+url(https://i.imgur.com/opV44Pz.png) /* shared/snow2.png */, 
+url(https://i.imgur.com/50ajBDC.png) /* shared/snow3.png */;
 animation: Falling 20s linear infinite;
 -moz-animation: Falling 20s linear infinite;
 -webkit-animation: Falling 20s linear infinite;
